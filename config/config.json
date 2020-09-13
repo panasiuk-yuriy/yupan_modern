@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "yupan-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/yupanWebpart/YupanWebpartWebPart.js",
+          "manifest": "./src/webparts/yupanWebpart/YupanWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "YupanWebpartWebPartStrings": "lib/webparts/yupanWebpart/loc/{locale}.js"
+  }
+}
